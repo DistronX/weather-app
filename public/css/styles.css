@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: purple;
+}
+
+.profile-img {
+    width: 300px;
+}
+
+.img-container {
+    overflow: hidden;
+    height: 300px;
+}
+
+.container {
+    padding: 20px 9%;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.nav {
+    margin: 20px 0px;
+    color: rgba(128, 0, 128, 0.60);
+}
+
+.nav a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.error-txt {
+    font-size: 100px;
+    color: purple;
+}
+
+footer {
+    color: rgba(128, 0, 128, 0.60);
+    margin: 15px 0;
+    padding: 10px 0;
+    border-top: 1px gray solid;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input {
+    padding: 5px 10px;
+    margin: 0;
+    border: 1px solid purple;
+}
+
+form button {
+    padding: 5px 10px;
+    margin: 0;
+    color: purple;
+    border: 1px solid purple;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    color: white;
+    background-color: purple;
+}
+
+.display {
+    font-size: 20px;
+}

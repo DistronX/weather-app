@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            {{>header}}
+
+            You can check weather here!
+
+            <form action="">
+                <input type="text">
+                <button type="submit">Search</button>
+            </form>
+
+            <div class="display">
+                <p id="temp"></p>
+                <p id="text"></p>
+                <p id="location"></p>
+            </div>
+        </div>
+
+
+        {{>footer}}
+
+        <script src="/js/app.js"></script>
+    </div>
+</body>
+</html>
